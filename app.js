@@ -27,7 +27,6 @@ console.log(names);
 let moreNumbers = [5,8,2,1,6,3];
 moreNumbers.sort();
 console.log(moreNumbers);
-*/
 
 
 // Function & Conditional Statement Practice //
@@ -44,4 +43,18 @@ function saying(food) {
 }
 
 saying("Tuna");
+*/
 
+
+// Object Practice //
+
+const names = {
+  first: "Bill",
+  second: "James",
+  third: "Henery",
+  fourth: function (name){
+    console.log(`Hello, my name is ${name}!`);
+  }
+}
+
+names.fourth(names.third);
