@@ -64,3 +64,21 @@ names.sixth = "Greg";
 console.log(names);
 console.log(names.first);
 */
+
+// Class Practice //
+
+class Surgeon {
+  constructor(name, department) {
+    this.name = name;
+    this.department = department;
+  }
+}
+
+const surgeonRomero = new Surgeon ('Francisco Romero', 'Cardiovascular');
+const surgeonJackson = new Surgeon ('Ruth Jackson', 'Orthopedics');
+const surgeonMarta = new Surgeon ('Benjamin Marta', 'Pediactric');
+
+console.log(Surgeon);
+console.log(surgeonRomero);
+console.log(surgeonJackson);
+console.log(surgeonMarta);
