@@ -47,14 +47,20 @@ saying("Tuna");
 
 
 // Object Practice //
-
+/*
 const names = {
-  first: "Bill",
-  second: "James",
-  third: "Henery",
-  fourth: function (name){
+  first: "Ted",
+  second: "Philip",
+  third: "Jennifer",
+  fourth: function (name) {
     console.log(`Hello, my name is ${name}!`);
   }
 }
 
-names.fourth(names.third);
+names.fourth(names["third"]);
+names["fifth"] = "Donald";
+names.sixth = "Greg";
+
+console.log(names);
+console.log(names.first);
+*/
