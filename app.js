@@ -68,17 +68,53 @@ console.log(names.first);
 // Class Practice //
 
 class Surgeon {
+  //Constructor
   constructor(name, department) {
     this.name = name;
     this.department = department;
   }
+  //Methods
+  introduce() {
+    console.log("This is " + this.name + "!");
+  }
+
+  hello() {
+    console.log("My name is " + this.name + " and I'm saying 'Hello!")
+  }
+
+  more() {
+    console.log("This is more practice for " + this.name + " in the " + this.department + ".");
+  }
+
+  imLearning() {
+    console.log("I'm starting to get it!");
+  }
+
+  oneMoreTime() {
+    console.log("One more time to practice class methods");
+  }
 }
 
+//Create new instances
 const surgeonRomero = new Surgeon ('Francisco Romero', 'Cardiovascular');
 const surgeonJackson = new Surgeon ('Ruth Jackson', 'Orthopedics');
 const surgeonMarta = new Surgeon ('Benjamin Marta', 'Pediactric');
+const surgeonNewName = new Surgeon ('My name is Benjamin', "I work in the hospital")
+const myMessage = new Surgeon("Jennifer");
+const greeting = new Surgeon("Bob");
+const morePractice = new Surgeon("Benjamin", "Hair Transplant");
+const learning = new Surgeon();
+const oneMoreTime = new Surgeon();
 
-console.log(Surgeon);
+// log instances
 console.log(surgeonRomero);
 console.log(surgeonJackson);
 console.log(surgeonMarta);
+console.log(surgeonNewName);
+
+//Log results
+console.log(myMessage.introduce());
+console.log(greeting.hello());
+console.log(morePractice.more());
+console.log(learning.imLearning());
+console.log(oneMoreTime.oneMoreTime());
