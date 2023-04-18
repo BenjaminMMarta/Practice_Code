@@ -63,7 +63,7 @@ names.sixth = "Greg";
 
 console.log(names);
 console.log(names.first);
-*/
+
 
 // Class Practice //
 
@@ -118,3 +118,7 @@ console.log(greeting.hello());
 console.log(morePractice.more());
 console.log(learning.imLearning());
 console.log(oneMoreTime.oneMoreTime());
+*/
+
+//jQuery//
+
