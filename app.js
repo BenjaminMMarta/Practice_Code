@@ -121,4 +121,20 @@ console.log(oneMoreTime.oneMoreTime());
 */
 
 //jQuery//
+//Axios//
 
+let $input = $('#input');
+let $button = $('#search');
+
+$button.on('click', async function(event) {
+  event.preventDefault();
+  const getUniversities = await axios.get('http://universities.hipolabs.com/search?country=United+States'); 
+  console.log(getUniversities);
+  for (let university of getUniversities.data) {
+  }
+  
+});
+
+//$button.on('click', async function() {
+  //console.log($input.val());
+//});
